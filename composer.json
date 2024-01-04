@@ -29,7 +29,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "shfarzam\\DeviceDetection\\": "src/Detection"
+            "shfarzam\\DeviceDetection\\": "src/DeviceDetection",
+            "shfarzam\\DeviceDetection\\Device\\": "src/DeviceDetection/Device"
         }
     },
     "authors": [
