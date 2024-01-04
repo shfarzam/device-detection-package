@@ -1,7 +1,7 @@
 {
     "name": "shfarzam/device-detection",
     "description": "A PHP library for device detection including mobile, bot, and tablet/PC detection methods.",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "type": "library",
     "minimum-stability": "stable",
     "require": {
