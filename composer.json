@@ -1,0 +1,46 @@
+{
+    "name": "shfarzam/device-detection",
+    "description": "A PHP library for device detection including mobile, bot, and tablet/PC detection methods.",
+    "license": "GNU",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "shfarzam/data-validation": "^1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "third-party/required-plugin": true,
+            "my-organization/*": true,
+            "unnecessary/plugin": true,
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "keywords": [
+        "detection",
+        "mobile",
+        "tablet",
+        "mobile",
+        "bot",
+        "device"
+    ],
+    "autoload": {
+        "psr-4": {
+            "shfarzam\\DeviceDetection\\": "src/Detection"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shahriar Farzam",
+            "email": "sh.farzam@hotmail.com"
+        }
+    ],
+    "scripts": {
+        "test": [
+            "phpunit tests/*.php"
+        ]
+    }
+}
